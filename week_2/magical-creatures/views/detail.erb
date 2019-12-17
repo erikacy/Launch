@@ -1,0 +1,16 @@
+<h1>The <%= @magical_creature %></h1>
+<ul>
+    <% @magical_array.each do |creature| %>
+      <% if creature.name == @magical_creature %>
+       <li>
+         <b>Name: </b><%= creature.name %>
+       </li>
+       <li>
+         <b>Age: </b><%= creature.age %>
+       </li>
+       <li>
+         <b>Ability: </b><%= creature.magical_ability %>
+       </li>
+       <% end %>
+    <% end %>
+</ul>

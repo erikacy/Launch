@@ -1,0 +1,25 @@
+<% require 'pry' %>
+
+
+<h1><%= @name %></h1>
+<ul>
+  <% @ingredients.each do |ingredient| %>
+  <li><%= ingredient %></li>
+  <% end %>
+</ul>
+
+<ol>
+  <% @directions.each do |step| %>
+  <li><%= step %></li>
+  <% end %>
+</ol>
+
+<br>
+<h2>Reviews</h2>
+<% @reviews.each do |review| %>
+<br>
+<b>Username:</b> <%= review[:username] %><br>
+<b> Rating: </b> <%= review[:rating] %><br>
+<b> Review: </b> <%= review[:review] %><br>
+<% end %>
+<% binding.pry %>

@@ -1,0 +1,8 @@
+<h2>Magical Creatures</h2>
+<ul>
+  <% @magical_array.each do |creature| %>
+  <li>
+    <a href="/creatures/<%= creature.name %>"> <%= creature.name %></a>
+  </li>
+  <% end %>
+</ul>
