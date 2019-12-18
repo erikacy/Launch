@@ -1,0 +1,14 @@
+<h1>News Aggregator Plus</h1>
+
+<br />
+<ul>
+<% @array.each do |article| %>
+<li><h2><%= article.title %></h2></li>
+<b>Summary: </b> <%= article.description %><br />
+<b>URL: </b> <a href="<%= article.url %>" target="_blank">Link to site</a>
+<br /><br /><br />
+<% end %>
+
+</ul>
+<br />
+<h4 class="new"><a href="/articles/new">Add a New Article</a></h4>
