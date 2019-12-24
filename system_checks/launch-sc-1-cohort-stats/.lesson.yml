@@ -1,8 +1,0 @@
-title: "Cohort Stats"
-type: "challenge"
-description: "OOP System Check"
-tags: "system-check, oop, rspec"
-behaviors:
-  - ruby_and_rspec
-ignore:
-  - "launch-sc-1-cohort-stats.md"

@@ -1,0 +1,30 @@
+body {
+  background-color: #fff;
+  margin: 5%;
+}
+
+.app {
+  // border: black solid 4px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.container {
+  border: solid 2px blue;
+  max-width: 600px;
+  padding: 15px;
+  margin: 20px;
+}
+
+
+.tile {
+  background-color:#eee;
+  border: solid 2px grey;
+  max-width: 600px;
+  padding: 15px;
+  margin: 20px;
+}
+.shame {
+  color:red;
+  font-weight:bold;
+}

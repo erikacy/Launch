@@ -1,0 +1,41 @@
+/* Your styling here */
+h3 {
+  color:yellow;
+  text-align:center;
+  margin-top:10px;
+}
+.wrapper {
+  background-color: #F22FC3;
+  width:90%;
+  padding:5px;
+  margin:10% auto;
+  border-radius:10px;
+  border:5px solid black;
+}
+.xicon {
+  float:right;
+  color:#A51081;
+  padding:5px 10px 0px 10px;
+}
+label {
+  text-align:center;
+  color:yellow;
+}
+.input-group-field {
+  background-color:yellow;
+  height:25px;
+}
+.buttonBox {
+  color:#F22FC3;
+  font-weight:bold;
+  border:2px solid black;
+  background-color:#15BFBC;
+  text-transform: uppercase;
+  height:25px;
+  box-shadow: 1px 1px 1px 1px #000;
+}
+.buttonBox:active {
+  background-color:#15BFBC;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
