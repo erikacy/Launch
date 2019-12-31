@@ -1,0 +1,49 @@
+/* YOUR STYLING HERE */
+body {
+  background-color:#F5F8FA;
+}
+.individualTweet {
+  background-color:#fff;
+  border:2px solid black;
+  width: 80%;
+  padding:5px;
+  margin:5px auto;
+  min-height:100px;
+}
+.userName {
+  font-weight:bold;
+}
+.screenName::before, .screenName {
+  content: '@';
+  color:#AAB8C2;
+  margin:0 0 0 5px;
+}
+.thumbnail {
+  box-shadow:none;
+}
+.userImg {
+  padding:10px 30px 0px 0px;
+}
+.fas {
+  padding-right:5px;
+  color:#AAB8C2;
+}
+.iconNum {
+  padding-right:0px;
+  padding-left:50px;
+  color:#AAB8C2;
+}
+.fa-reply.clicked {
+  color:#E2264D;
+}
+
+.fa-retweet.clicked, .retweeted {
+  color:#19CF86;
+}
+
+.fa-heart.clicked, .liked {
+  color:#E2264D;
+}
+.fa-ellipsis-h {
+  padding-left:50px;
+}
