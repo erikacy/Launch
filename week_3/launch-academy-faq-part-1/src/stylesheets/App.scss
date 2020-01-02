@@ -1,0 +1,31 @@
+/* YOUR STYLING HERE */
+body {
+  background-color:$light-blue;
+}
+.header {
+  font-family:"Comic Sans MS";
+  color:$blue;
+}
+.fa-plus {
+  background-color:$black;
+  border:2px solid #000;
+  box-shadow: 2px 2px $black;
+  padding:5px;
+  color:white;
+}
+.fa-minus {
+  background-color: $green;
+  border:2px solid #000;
+  box-shadow: 2px 2px $black;
+  padding:5px;
+  color:black;
+}
+.small-1 {
+  margin-right:-30px;
+}
+.question {
+  font-weight:bold;
+}
+.answer {
+  padding:0px 0px 0px 20px;
+}
