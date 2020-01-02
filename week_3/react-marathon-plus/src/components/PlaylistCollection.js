@@ -3,18 +3,17 @@ import Playlist from './Playlist'
 
 const PlaylistCollection = (props) => {
   // debugger
-  const [playlistId, setPlaylistId] = useState(null)
 
   const playlists = props.playlists.map(playlist => {
 
     let className;
 
-    if(playlistId === playlist.id) {
+    if(props.playlistId === playlist.id) {
       className = "selected"
     }
 
     const setPlaylistIdClosure = (event) => {
-      setPlaylistId(playlist.id)
+      props.setPlaylistId(playlist.id)
     }
     return(
       <Playlist
